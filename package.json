@@ -1,0 +1,13 @@
+{
+  "name": "dots-translator-node-package-example",
+  "version": "0.0.1",
+  "description": "Basic example for using vsm-translator module",
+  "main": "index.js",
+  "author": "Lars Mats",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "minimist": "^1.2.8",
+    "vsm-translator": "^0.1"
+  }
+}
