@@ -1,10 +1,6 @@
 // Very basic example use of translator node package
 
 //
-// Usage: node cliTranslator.js <port> <data> <rule crc>
-// example: node cliTranslator.js 1 00ab 57715230
-
-//
 // Require 
 // VSM Translator 
 const translator = require('vsm-translator');
