@@ -5,7 +5,7 @@
 // VSM Translator 
 const translator = require('vsm-translator');
 // CLI parser
-const args = require('minimist')(process.argv.slice(2));
+const args = require('minimist')(process.argv.slice(2), { string: ['_'] });
 
 //
 // Constructing "fake" iotnode Object from command line arguments
