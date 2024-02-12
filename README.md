@@ -1,5 +1,5 @@
 # dots-translator-node-package-example
-Example of how to use the vsm-translator-open-source via NPM, in this case for command-line translation
+Example of how to use the vsm-translator-open-source via NPM or similar package managers, in this case for command-line translation of uplinked LoRa data from Dots family of products.
 
 
 - Usage: 

@@ -3,7 +3,7 @@
 //
 // Require 
 // VSM Translator 
-const translator = require('vsm-translator');
+const translator = require('vsm-translator-open-source');
 // CLI parser
 const args = require('minimist')(process.argv.slice(2), { string: ['_'] });
 
