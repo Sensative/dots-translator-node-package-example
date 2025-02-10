@@ -1,0 +1,34 @@
+Hello, it is Baska's read me file. See below instructions:
+
+Option#1   -  node RadarConfigurator.js 5 300 0.3 3
+
+Option#2 -    node RadarConfigurator.js 3 s 0.5 5 0.65
+
+
+Explaination of the parameter:
+
+A) 3 (Radar App Mode)
+
+This selects radar mode 3, which is for Well Monitoring.
+Other modes:
+3 → Well Monitoring
+4 → Bin Monitoring
+5 → Parking Monitoring
+6 → Seating Monitoring
+
+B) 300 (Measurement Cycle in seconds)
+
+This sets the measurement cycle to 300 seconds (5 minutes).
+The radar will take readings every 5 minutes.
+
+C) 0.5 (Start Range in meters)
+
+The radar starts detecting objects 0.5 meters away.
+D) 5 (End Range in meters)
+
+The radar will stop detecting objects beyond 5 meters.
+
+E) 0.65 (Sensitivity Level - 0 to 1)
+
+This sets the radar's sensitivity to 0.65 (on a scale from 0 to 1).
+A higher value makes the radar more sensitive to small objects.
