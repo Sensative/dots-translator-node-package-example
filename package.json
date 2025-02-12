@@ -8,6 +8,6 @@
   "private": true,
   "dependencies": {
     "minimist": "^1.2.8",
-    "vsm-translator-open-source": "^0.1.45"
+    "vsm-translator-open-source": "^0.2.127"
   }
 }
